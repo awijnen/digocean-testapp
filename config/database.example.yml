@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: testapp_development 
+
+test:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: testapp_test 
+
+production:
+  adapter: postgresql
+  host: localhost
+  encoding: unicode
+  database: testapp_production 
+  user: deployer
+  password: secret
